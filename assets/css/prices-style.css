@@ -6,18 +6,16 @@
 	box-sizing: border-box;
 	font-family: "Roboto", sans-serif !important;
 }
-
 #booknow{
 	width: 111px;
 	height: 40px;
 	background-color: #105082;
 	border: 1px solid #FFFFFF80;
 	border-radius: 20px;
-	opacity: 1;
+	opacity: 0.8;
 	color: white;
 
 }
-
 nav {
 	min-height: 64px;
 	position: sticky;
@@ -52,7 +50,6 @@ nav {
 	border-radius: 20px;
 	opacity: 1;
 	color:white;
-
 }
 #loginbttn{
 
@@ -61,7 +58,7 @@ nav {
 	background-color: #105082; 
 	border: 1px solid #FFFFFF80;
 	border-radius: 20px;
-	opacity: 1;
+	opacity: 0.8;
 	color:white;
 }
 #becomehelper{
@@ -72,10 +69,9 @@ nav {
 	background-color: #105082; 
 	border: 1px solid #FFFFFF80;
 	border-radius: 20px;
-	opacity: 1;
+	opacity: 0.8;
 	color:white;
 }
-
 .header-minilogo {
 	padding-top: 0px;
 	padding-left: 15px;
@@ -84,13 +80,75 @@ nav {
 	margin-right: 600px;
 }
 /* navbar ends */
-
-.faqHeader {
+.priceCard {
+	max-width: 553px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid #b0c9ce;
+	padding-bottom: 10px;
+	transition: transform 0.35s;
+}
+.priceCardHeader {
+	font-size: 28px;
+	font-weight: bold;
+	color: #fff;
+	padding: 12px 0 13px;
+	background: #1d7a8c;
+}
+.priceCardText {
+	position: relative;
+	font-size: 48px;
+	font-weight: bold;
+	color: #646464;
+	line-height: 48px;
+	margin: 18px 0 30px;
+}
+.priceCardDescriptionItem {
+	max-width: 553px;
+	margin: auto;
+	font-size: 17px;
+	margin-bottom: 24px;
+	color: #646464;
+}
+.whyHelperland3{
+	/* background-color: aquamarine; */
+	display: inline-flex;
+	margin-top: 50px;
+	margin-left: 260px;
+}
+.cleaningHeader {
+	font-size: 36px;
+	margin: 32px 0px 9px 0px;
+	font-weight: 700;
+	color: #4f4f4f;
+	padding-top:50px;
+}
+.cleaningHeader1 {
 	font-size: 36px;
 	margin: 32px 0px 9px 0px;
 	font-weight: 700;
 	color: #4f4f4f;
 }
+.whyDescriptionItemHeader {
+	font-size: 20px;
+	font-weight: bold;
+	color: #646464;
+	margin-bottom: 10px;
+}
+.whyDescriptionItemText {
+	font-size: 14px;
+	color: #646464;
+	margin-bottom: 47px;
+}
+.whyHelperlandHeaderText {
+	margin-top: 71px;
+}
+.whyDescriptionItem {
+	max-width: 337px;
+}
+
 .faHeaderDecoration span {
 	width: 62px;
 	height: 1px;
@@ -109,12 +167,21 @@ nav {
     border-radius: 100px;
     padding: 20px;
 }
+
+.serviceImage {
+	border: 1px solid #b0c9ce;
+	width: 108px;
+	height: 108px;
+	margin: auto;
+}
 .extra-services-temp{
     margin-left:5%;
     width: 200px;
     opacity: 1;
 }
 .imgtext{
+	margin-top:10px;
+	margin-bottom: 5px;
     font-size: 16px;
     text-align: center;
     letter-spacing: 0px;
@@ -128,7 +195,9 @@ nav {
     letter-spacing: 0px;
     color: #1D7A8C;
     opacity: 1;
+	font-weight: bold;
 }
+
 #cleaning{
     margin-top: 50px;
 }
@@ -277,5 +346,20 @@ form{
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
+}
+.bot-form {
+	margin-left:1250px;
+}
+#last-icon{
+	margin-top: 20px;
+}
+.up-arrow {
+	width: 48px;
+	height: 48px;
+	background-color: #525252;
+	border-radius: 50%;
+	position: relative;
+	float: left;
+	margin: 0px 0px;
 }
 /* footer ends */
