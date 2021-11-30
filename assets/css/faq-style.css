@@ -29,6 +29,7 @@ nav {
 	height: 54px;
 	background: #525252;
 	display: inline;
+	max-width: 100%;
 }
 .nav-block{
 	margin-top: 6px;
