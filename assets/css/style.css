@@ -11,13 +11,14 @@
 	top: 0px;
 	left: 0px;
 	width: 1560px;
-	
-background: #525252 0% 0% no-repeat padding-box;
-opacity: 1;
+	background: #525252 0% 0% no-repeat padding-box;
+	opacity: 1;
 	background-image: url("..\\img\\Landing-Page-background-image.png");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
+	max-width:100%;
+	height:auto;
 }
 #header_logo{
 	top: 10px;
